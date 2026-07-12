@@ -12,9 +12,7 @@ const rPs = (user, computer) => {
 
 }
 
-
 console.log(rPs("paper","scissor"));
-
 
 //  for loop
 
@@ -30,3 +28,12 @@ while(i <=12){
     console.log(i)
     i++;
 }
+
+// do while loop
+
+let p = 1;
+do{
+    console.log(p);
+    p++;
+}
+while(p <= 8);
