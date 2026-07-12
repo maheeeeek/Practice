@@ -22,7 +22,6 @@ console.log(rPs("paper","scissor"));
 
 // While loop
 
-
 let i = 1;
 while(i <=12){
     console.log(i)
@@ -37,3 +36,26 @@ do{
     p++;
 }
 while(p <= 8);
+
+
+// print even numbers 
+
+for( let e = 1; o < 21; e++){
+    if( e % 2 === 0){
+        console.log(e);
+    }
+};
+
+//  print odd numbers 
+
+let o = 1;
+while( o < 15 ){
+     if( o % 2 !== 0){
+        console.log(o);
+    }
+    o++;
+};
+
+
+
+
