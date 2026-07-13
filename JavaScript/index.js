@@ -33,7 +33,7 @@ do{
 while(p <= 8);
 
 // print even numbers 
-for( let e = 1; o < 21; e++){
+for( let e = 1; e < 21; e++){
     if( e % 2 === 0){
         console.log(e);
     }
@@ -47,6 +47,7 @@ while( o < 15 ){
     }
     o++;
 };
+
 
 
 
