@@ -102,8 +102,33 @@ do{
 // break practice 
 
 for(let c = 1 ; c <= 100; c++){
+    console.log(c)
     if(c % 7 === 0 ){
         break;
     }
-    console.log(c)
+    
 }; 
+
+// continue practice 
+
+for(let g = 1; g <= 20; g++){
+    if(g % 3 === 0){
+        continue;
+    }
+    console.log(g);
+}
+
+//  print first 5 odd numbers 
+
+let count = 0;
+
+let v = 1;
+while( v <= 30){
+    if(v % 2 !== 0){
+        count++;
+        console.log(v);
+    };
+
+    if( count === 5) break;
+    v++;
+}
