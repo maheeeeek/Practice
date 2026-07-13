@@ -101,4 +101,9 @@ do{
 
 // break practice 
 
-for(let 
+for(let c = 1 ; c <= 100; c++){
+    if(c % 7 === 0 ){
+        break;
+    }
+    console.log(c)
+}; 
