@@ -59,7 +59,15 @@ let m = 1;
 
 //  print sum
 
+let sum = 0;
 
+let s = 1
+while(s <= 50){
+    sum = sum + s
+    s++;
+}
+
+console.log(sum);
 
 
 
