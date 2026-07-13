@@ -99,3 +99,6 @@ do{
     b++;
 } while( b <= 100)
 
+// break practice 
+
+for(let 
