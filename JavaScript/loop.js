@@ -69,9 +69,33 @@ while(s <= 50){
 
 console.log(sum);
 
+// print all the numbers divisible by 5 
+
+for( let d = 1; d <= 50; d++ ){
+    if( d % 3 === 0 ){
+        console.log(d);
+    }
+}
+
+// print after taking a number from user 
+
+// let val = prompt("give a number");
+// for (let u = 1; u <= val; u++){
+//     if(u % 2 === 0 ){
+//         console.log(`${u} is a even number `)
+//     } else {
+//         console.log(`${u} is a odd number `)
+//     }
+// };
 
 
- 
+// print the numbers divisible by 3 , 5 
 
-
+let b = 1
+do{
+    if( b % 3 === 0 && b % 5 === 0){
+        console.log(b)
+    }
+    b++;
+} while( b <= 100)
 
