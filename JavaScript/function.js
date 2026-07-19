@@ -14,3 +14,12 @@ abcd( function efg() {
 (function init() {
     console.log("Initialized");
 })();
+
+
+// BMI Calculator 
+
+let calc = (weight,height) => {
+    return weight / (height * height);
+}
+
+console.log(Math.floor(calc(58,1.61544)));
