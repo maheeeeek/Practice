@@ -8,4 +8,9 @@ function abcd (val){
 
 abcd( function efg() {
     console.log("hey");
-})
+});
+
+
+(function init() {
+    console.log("Initialized");
+})();
